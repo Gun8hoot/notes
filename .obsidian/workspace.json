@@ -1,0 +1,227 @@
+{
+  "main": {
+    "id": "932591016d637f69",
+    "type": "split",
+    "children": [
+      {
+        "id": "ab7236f14d0e3cda",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b8720c0a8119668a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming/C/Socket.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Socket"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f2914419fa3b3bef",
+    "type": "split",
+    "children": [
+      {
+        "id": "a1eaa73d18a10373",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4cac42cd87586131",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f1cfc9d3b917d4b6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "2effae26901f0c7b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c86de65839929e24",
+    "type": "split",
+    "children": [
+      {
+        "id": "074cf46362bcb79b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d0dd9e6a561a98f7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Linux/Internal/ELF/2. Les headers ELF.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "4cb6ed510c79861d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Linux/Internal/ELF/2. Les headers ELF.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "dc5e0f037651d5af",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "7b798caffa3579b3",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "a015d4f67cac9eba",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Linux/Internal/ELF/2. Les headers ELF.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "b8720c0a8119668a",
+  "lastOpenFiles": [
+    "Programming/C++/vtable.md",
+    "Linux/Internal/ELF/2. Les headers ELF.md",
+    "Linux/Internal/ELF/1. La creation des ELF.md",
+    "README.md~",
+    "Programming/C++",
+    "Programming/Python",
+    "Programming/C",
+    "Programming",
+    "Linux/Internal",
+    "Linux",
+    "Cryptocurrency/Mastering Monero/1. Introduction aux cryptomonnaie et à Monero.md",
+    "README.md",
+    "Cryptocurrency/Mastering Monero/assets/1 Introduction to cryptocurrency & Monero/Screenshot_20250209_191045.png",
+    "Cryptocurrency/Mastering Monero/assets/1 Introduction to cryptocurrency & Monero/Screenshot_20250209_191420.png",
+    "Cryptocurrency/Mastering Monero/assets/1 Introduction to cryptocurrency & Monero/Screenshot_20250209_185008.png",
+    "Cryptocurrency/Mastering Monero/assets/1 Introduction to cryptocurrency & Monero/Screenshot_20250209_183713.png",
+    "Cryptocurrency/Mastering Monero/8. Guide sur les wallet et astuce de troubleshoot.md",
+    "Cryptocurrency/Mastering Monero/7. Integration du Monero pour les developpers.md",
+    "Cryptocurrency/Mastering Monero/6. Communauter et contribution.md",
+    "Cryptocurrency/Mastering Monero/5. Plongeon dans Monero et la crryptographie.md",
+    "Cryptocurrency/Mastering Monero/4. Le reseau Monero.md",
+    "Cryptocurrency/Mastering Monero/2. Recevoir, stocker et envoyer du Monero.md",
+    "Cryptocurrency/Mastering Monero/3. Comment marche Monero ?.md",
+    "Cryptocurrency/Mastering Monero/assets",
+    "Cryptocurrency/Mastering Monero/assets/3 How Monero works/Screenshot_20250210_163220.png",
+    "Cryptocurrency/Mastering Monero/assets/3 How Monero works/Screenshot_20250210_154535.png",
+    "Cryptocurrency/Mastering Monero/assets/2 Getting started receiving, storing and sanding M/seed_template.pdf",
+    "Cryptocurrency/Mastering Monero/assets/2 Getting started receiving, storing and sanding M/Screenshot_20250210_014115.png",
+    "Cryptocurrency/Mastering Monero/assets/2 Getting started receiving, storing and sanding M/Screenshot_20250210_010839.png",
+    "Cryptocurrency/Mastering Monero/assets/2 Getting started receiving, storing and sanding M/Screenshot_20250210_002953.png",
+    "Cryptocurrency/Mastering Monero/assets/1 Introduction to cryptocurrency & Monero/Screenshot_20250209_194925.png",
+    "Cryptocurrency/Mastering Monero/assets/3 How Monero works",
+    "README.md.md"
+  ]
+}
