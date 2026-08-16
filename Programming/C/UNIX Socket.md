@@ -208,7 +208,7 @@ fcntl(socket_fd, F_SETFL, O_NONBLOCK);
 - Mais utiliser fcntl dans ce cas n'est conseiller car le programme va faire enormement dope ce qui tire enormement sur le CPU. Il est mieux d'utiliser des syscall comme poll()/epoll()/select()
 - De ce que j'ai vu epoll est mieux plus opti (+ conseiller par sbonneau) donc je pense que c'est le mieux a prendre dans notre cas
 
-![comp](./comp.png)
+![comp](./assets/socket_comparison.png)
 
 - Le I/O multiplexing permet a un processus de gerer plusieurs fds en meme temps. Les syscall comme `poll()` et `select()` permettent les I/O multiplexing
 - `epoll()` a de meilleurs performance lorsque l'on monitor une grande quantiter de fds, cepandant il est dispo que sur les kernel Linux >= 2.6 (bsd et macos ont des alternative mais pas `epoll()`)
