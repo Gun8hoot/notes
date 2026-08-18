@@ -1,0 +1,6 @@
+- Un set est une collection d'elements distincts, non ordonnée et non indexés
+- On crée un `set()` avec :
+	- Le constructeur `set()`
+	- Utilisant des curly braces dans le declaration `st = {}`
+- Pour obtenir la taille d'un set on peux utiliser `len()`
+- On verifie si un element est dans le set avec le keyword `in`

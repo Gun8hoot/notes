@@ -8,13 +8,6 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "file:README",
-      "color": {
-        "a": 1,
-        "rgb": 0
-      }
-    },
-    {
       "query": "path:Linux  ",
       "color": {
         "a": 1,
@@ -27,6 +20,13 @@
         "a": 1,
         "rgb": 3089361
       }
+    },
+    {
+      "query": "path:\"Book/Hacking, The art of exploitation\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 16737792
+      }
     }
   ],
   "collapse-display": false,
@@ -35,10 +35,10 @@
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0.200241862340018,
-  "repelStrength": 8.3906076791293,
+  "centerStrength": 0.39373173435453,
+  "repelStrength": 15.3672556951245,
   "linkStrength": 1,
-  "linkDistance": 249,
-  "scale": 3.160101053774833,
+  "linkDistance": 320,
+  "scale": 0.7593582854456795,
   "close": false
 }

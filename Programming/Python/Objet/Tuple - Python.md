@@ -1,0 +1,16 @@
+- Un tuple est une collection ordonnée (avec index) et non modifiable de different type de données
+- On peux creer un tuple de deux façon : 
+	- Avec le constructor `tuple()`
+	- Avec des parentaise `tp = ()`
+- Nous pouvons avoir le nombre d'elements que a une tuple grace `len()`
+- On accede aux element de la meme facon que dans une [[Liste - Python]]
+- On peux faire du slicing comme dans une [[Liste - Python]]
+- Vue que un tuple est immutable (on peux pas modifier/ajouter/retirer des elem) on doit la convertir en list si nous voulons ajouter, retirer ou modifier un/des elements
+	- `lst = list(tp)`
+- On peux veriffier la presence d'un elementn dans une tuple grace au keyword `in`
+	- `'value' in tp`
+- On peux joindre deux tuple entre eux avec l'operateur + (c'est pas logique)
+	- `tp3 = tp1 + p2`
+- On ne peux pas supprimer un element de la liste mais on peux supprimer toutes la liste avec le keyword `del`
+	- `del tp1`
+- 

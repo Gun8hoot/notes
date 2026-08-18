@@ -1,0 +1,58 @@
+- Les strings sont initialiser grace a des `"`, `'`, `'''`, `"""`
+- Une chaine de charactere peux etre uniquement un seul charactere
+- On utilise la methode `len()` pour avoir sa taille
+- Il est possible de connecter deux chaine de charactere entre elle (concatenation) en mettant juste un plus entre les deux chaine
+```
+str1 = "String1"
+str2 = "String2"
+str3 = str1 + str2 # String1String2
+```
+- Il existe deux facon de formater une chaine de charactere :
+	- Ancienne : 
+		- On peux utiliser l'operateur `%()`
+		- `formated_string = 'The area of circle with a radius %d is %.2f.' %(radius, area) # 2 chiffres après la virgule`
+	- Moderne : 
+		- str.format() :
+			- Existe depuis python3
+			- Utiliser la methode `.format()` de l'objet de type str
+			- Va remplacer des placeholder `{}` par la valeur que l'on veux avoir dans notre string
+			- `'{} + {} = {}'.format(a, b, a + b)`
+		-  f-string (python 3.6+) :
+			- Doivent avoir un `f` avant les guillemet
+			- `f'{a} / {b} = {a / b:.2f}'`
+- On peux acceder a la valeur se trouvant a un certaine position en fessant `string[indice]` (comme en C). Nous pouvons mettre un indice negatif afin de commencer par la fin
+- En python nous pouvons faire du decoupage (slicing) de faire des sous chaine
+	- `"hello"[1:3] # el (le premier charactere est inclus mais pas le 3eme)`
+	- `"hello"[-3:] # llo`
+	- `"hello"[3:] # llo`
+- On peux inverser une chaine de character simplement en fessant :
+	- `"hello"[::-1]`
+- Nous pouvons skip n charactere en fessant:
+	- `"hello, world"[0:6:2] # hlo`
+		- Prend le `h` de hello
+		- On skip 2 charactere
+		- On va prendre tous les autres charactere tant que l'on est pas arriver au 6e 
+- Avec `.capitalize()` on peux mettre le premier charactere de notre chaine de charactere en maj
+- `.count()` nous renvoie le nombre d'occurance d'un charactere ou d'une chaine de charactere
+- `.endswith()` nous renvoie true si la chaine de charactere fini par la chaine de charactere specifier
+- `.expandtab()` remplace les \t par des espace. De base le nombre d'espace est 8 mais on peux lui specifier la taille d'un tab
+- `.find()` renvoie l'indice de la premiere occurance d'un character dans une chaine de caractere
+- `.rfind()` renvoie l'indice de la derniere occurance d'un character dans une chaine de caractere
+- `.format()` (vue plus haut)
+- `.index()` ???
+- `.rindex()` ???
+- `.isalnum()` check si la chaine de caractere contient que des charactere alphanumerique (a-zA-Z0-9) 
+- `.alpha()` check si la chaine de caractere contient que des charactere alphabetique (a-zA-Z)
+- `.isdecimal()` check si la chaine de charactere contient que des charactere decimal (0-9)  
+- `.isdigit()` check si la chaine de charactere contient que des chiffre et d'autre charactere unicode numerique  
+- `.isnumeric()` fait comme isdigit() mais accepte encore plus de charactere unicode numerique
+- `.isidentifier()` check si la chaine de charactere a un identifiant valide (le meme formatage des nom de fonction jcrois) 
+- `.islower()` check si la chaine de charactere contient que des minuscule 
+- `.isupper()` check si la chaine de charactere contient que des majuscule 
+- `.join()` fait la concatenation d'une ou plusieurs chaine de charactere 
+- `.strip()` retire tous les caractere qui sont donnée en arguments
+- `.replace()` remplace une chaine de caractere par une autre 
+- `.title()` met chaque mot d'une chaine de caractere en maj
+- `.swapcase()` met chaque maj en min et inversement 
+- `.startswith()` check si la chaine de caractere commence comme une autre chaine de caractere
+- 

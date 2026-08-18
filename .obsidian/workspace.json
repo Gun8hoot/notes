@@ -4,21 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "47142b26263ca5f1",
+        "id": "7dc2a2246ee77547",
         "type": "tabs",
         "children": [
           {
-            "id": "6f3806ff67b6cef4",
+            "id": "3d6df004cdb51fdf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Programming/Python/Objet/Sets - Python.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Sets - Python"
+            }
+          },
+          {
+            "id": "0e3e12be810ae87e",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -55,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "line:(symtab)",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -83,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 231.5
   },
   "right": {
     "id": "c86de65839929e24",
@@ -179,8 +189,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
@@ -189,48 +199,53 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "6f3806ff67b6cef4",
+  "active": "3d6df004cdb51fdf",
   "lastOpenFiles": [
+    "Programming/Python/Python.md",
+    "Programming/Python/Variable et builtin - Python.md",
+    "Programming/Python/Operateur - Python.md",
+    "Programming/Python/Objet/Tuple - Python.md",
+    "Programming/Python/Objet/Strings - Python.md",
+    "Programming/Python/Objet/Sets - Python.md",
+    "Programming/Python/Objet/Liste - Python.md",
+    "README.md",
+    "Linux/Internal/ELF/ELF.md",
     "Programming/C/UNIX Socket.md",
-    "Linux/Internal/ELF/3. Headers de section ELF.md",
+    "Programming/C++/C++.md",
+    "Programming/C/C.md",
+    "Programming/Python/Objet",
+    "Programming/Python/Strings",
     "Linux/Internal/ELF/1. La creation des ELF.md",
+    "Programming/Algorithm/LZ4/LZ4.md",
+    "Book/Hacking, The art of exploitation/Hacking, The art of exploitation.md",
+    "Book/Hacking, The art of exploitation",
+    "Book",
+    "Book/Hacking, The art of exploitation",
+    "Book",
     "Linux/Internal/ELF/4. Section ELF.md",
+    "Programming/Untitled",
+    "Linux/Internal/ELF/2. Les headers ELF.md",
+    "Linux/Internal/ELF/3. Headers de section ELF.md",
+    "Summary.md",
     "Programming/Algorithm/LZ4/assets/lz4_frame_desc.png",
     "Programming/Algorithm/LZ4/assets/lz4_file_structure.png",
-    "Programming/Algorithm/LZ4/LZ4.md",
     "Programming/Algorithm/LZ4/Format des Blocks LZ4.md",
-    "Linux/Internal/ELF/ELF.md",
-    "Linux/Internal/ELF/2. Les headers ELF.md",
     "Programming/C++/vtable.md",
     "Programming/Algorithm/LZ4/assets/Schema LZ4.md",
     "Excalidraw",
     "Programming/Algorithm/LZ4",
     "Programming/Algorithm/LZ4/assets",
-    "Programming/Algorithm",
     "Programming/Untitled.md",
     "Programming/C/assets/socket_comparison.png",
-    "Programming/C/assets",
-    "README.md~",
-    "Programming/C++",
-    "Programming/Python",
-    "Programming/C",
-    "Programming",
     "Cryptocurrency/Mastering Monero/1. Introduction aux cryptomonnaie et à Monero.md",
-    "README.md",
     "Cryptocurrency/Mastering Monero/assets/1 Introduction to cryptocurrency & Monero/Screenshot_20250209_191045.png",
     "Cryptocurrency/Mastering Monero/assets/1 Introduction to cryptocurrency & Monero/Screenshot_20250209_191420.png",
     "Cryptocurrency/Mastering Monero/assets/1 Introduction to cryptocurrency & Monero/Screenshot_20250209_185008.png",
     "Cryptocurrency/Mastering Monero/assets/1 Introduction to cryptocurrency & Monero/Screenshot_20250209_183713.png",
     "Cryptocurrency/Mastering Monero/8. Guide sur les wallet et astuce de troubleshoot.md",
     "Cryptocurrency/Mastering Monero/7. Integration du Monero pour les developpers.md",
-    "Cryptocurrency/Mastering Monero/6. Communauter et contribution.md",
-    "Cryptocurrency/Mastering Monero/5. Plongeon dans Monero et la crryptographie.md",
-    "Cryptocurrency/Mastering Monero/4. Le reseau Monero.md",
-    "Cryptocurrency/Mastering Monero/2. Recevoir, stocker et envoyer du Monero.md",
-    "Cryptocurrency/Mastering Monero/3. Comment marche Monero ?.md",
     "Cryptocurrency/Mastering Monero/assets/3 How Monero works/Screenshot_20250210_163220.png",
     "Cryptocurrency/Mastering Monero/assets/3 How Monero works/Screenshot_20250210_154535.png",
-    "Cryptocurrency/Mastering Monero/assets/2 Getting started receiving, storing and sanding M/Screenshot_20250210_014115.png",
-    "README.md.md"
+    "Cryptocurrency/Mastering Monero/assets/2 Getting started receiving, storing and sanding M/Screenshot_20250210_014115.png"
   ]
 }
