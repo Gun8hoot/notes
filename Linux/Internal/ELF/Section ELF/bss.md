@@ -1,0 +1,8 @@
+- Les variables definites sont diviser en 4 categories :
+	- global uninitialized variables
+	- global initialized variables
+	- local variables
+	- static variables
+- La section avec le code et les données sont separer car les variable peuvent changer de valeur. Or si les données etaient dans la section .text, ils n'auraient pas pus changer de valeur cat .text est en read-execute only.
+- Cette section est concu afin de stocker les variable non initialiser (uninitialized variables) mais ne contient rien (comme nous le prouve le flag NOBITS)
+- La taille de cette section est egal a la somme de toutes les taille des varible + 8

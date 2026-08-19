@@ -1,0 +1,12 @@
+- Les headers de section servent de description pour les differentes sections du fichier
+- Il est composer de plusieurs champ :
+	- [[sh_name]] : Nous dit le nom de la section
+	- [[sh_type]] : Nous dit le type de la section
+	- [[sh_flags]] : Nous donne des information sur la section
+	- [[sh_addr]] : Nous donne l'addresse de la section
+	- [[sh_offset]] : Nous donne l'offset de la section
+	- [[sh_size]] : Nous donne la taille de notre section
+	- [[sh_link]] : Nous donne l'index d'un section associer
+	- [[sh_info]] : (a dig +)
+	- [[sh_addralign]] : Nous donne l'alignement de notre section
+	- [[sh_entsize]] : Nous donne la taille de entrée presente dans la table de la section

@@ -1,0 +1,4 @@
+- Cette section contient du code sera lancé avant (.init) et apres (.fini) la fonction `main()`
+- Cependant ces sections sont obsolete mais c'est quand meme possible de les utiliser.
+- Pour charger du code dans ces section il suffit juste de mettre l'attribut **constructor** ou **destructor** a notre fonction
+- Dans les version recente de Linux cette ces section ont été remplacer par les sections .init_array et .fini_array 

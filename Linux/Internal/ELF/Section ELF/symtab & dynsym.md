@@ -1,0 +1,3 @@
+- Ces sections sont des tables qui contienne des information sur des symbols comme des variable ou des fonction presente dans le fichier ELF
+- La table .symtab (SHT_SYMTAB) va contenir toutes les symboles qui decrivent le fichier ELF. Cette table de symbole est non allouables et pas charger en memoire pendant l'exectution du programme
+- La table .dynsym (SHT_DYNSYM) contient des sous set de symboles de .symtab qui sont necessaire pour le dynamic linker. Cette table est charger en memoire pendant le runtime

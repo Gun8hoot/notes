@@ -1,0 +1,5 @@
+- Cette section est la section principal de chaque fichier ELF car le code principal de l'executable est stocker a l'interieur
+- Parfois, cette section peux etre appeller `.code` et le type de la section est **PROGBITS**
+- Le contenu de cette section est executer en memoire au runtime
+- Dans cette section il est uniquement possible de lire et executer pour des raison de securité
+- La section .text est juste une suite d'opcode tourne dans le cpu. Il est donc tres facile d'utiliser un desassembleur dessus afin de pouvoir essayer de comprendre comment le programme marche

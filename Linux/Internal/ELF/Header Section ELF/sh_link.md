@@ -1,0 +1,3 @@
+- Est l'acronyme de __Section Headers LINK__
+- Valeur sur 4 bytes qui nous donne l'index d'une section associer.
+- Si on prend l'exemple des section SHT_SYMTAB, SHT_DYNSYM, or SHT_DYNAMIC, ils ont tous besoin d'aller chercher des symbole dans la SH_STRTA

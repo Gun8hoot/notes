@@ -1,0 +1,1 @@
+- Cette section contient des information comme le compilateur qui a ete utiliser pour compiler le programme ou encore le nom de l'os 

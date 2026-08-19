@@ -51,3 +51,6 @@ python is eating the world
 		- `{2, 4, 3, 5}`
 
 [[Variable et builtin - Python]]
+
+### SOURCES: 
+- https://github.com/Asabeneh/30-Days-Of-Python

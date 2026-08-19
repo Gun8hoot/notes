@@ -1,0 +1,2 @@
+- Est l'acronyme de __Section Headers NAME__
+- Valeur sur 4 bytes qui nous donne un index vers la chaine de caractere qui se trouve dans le **Section Header STRing Table (.shstrtab)**. Tous les nom des section sont sauvegarder dans cette section.

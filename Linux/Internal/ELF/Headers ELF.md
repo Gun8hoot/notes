@@ -1,0 +1,19 @@
+- Le headers ELF est un partie essentielle pour le fichier qui se trouve generalement en debut de fichier
+- Il va contenir toutes les information importante pour commencer le fichier (????)
+- Le header nous donne des information sur :
+	- [[Identifier]] : Identifiant qui sert a identifier le fichier (ici ELF)
+	- [[Type]] : Le type de fichier ELF
+	- [[Machine]] : Architecture processeur sur le quelle le programme a été compiler
+	- [[Version]] : 
+	- [[Entry]] : L'addresse de **l'entry point**
+	- [[PhOffset]] : Offset qui sert a aller jusqu'a la table Program Header table
+	- [[ShOffset]] : Offset qui sert a aller jusqu'a la table Section Header
+	- [[Flags]] : Flags de paramettrage
+	- [[EHSize]] : Donne la taille de notre header
+	- [[PhEntrySize]] : Nous donne la taille d'une entrée de Program Headers Table
+	- [[PhNum]] : Nous donne le nombre d'entrée disponible dans Program Headers Table
+	- [[ShEntrySize]] : Nous donne la taille d'une entrée dans la table Section Headers Table
+	- [[ShNUM]]  Nous donne le nombre d'entrée disponible dans la table Section Headers Table
+	- [[shstrndx]] : Offset pour aller jusqu'a la table shstrtab
+- Avec les information donnée par [[PhEntrySize]] et [[PhNum]], nous pouvons avoir la taille totale de notre Program Header table
+$$PhEntrySize \times PhNum = totalSize$$

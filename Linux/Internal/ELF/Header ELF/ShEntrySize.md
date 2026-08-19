@@ -1,0 +1,3 @@
+- Acronyme de **Section Header ENTRY SIZE**
+- Valeur sur deux bytes
+- Nous permet d'avoir la taille d'une entrée dans notre Section Header Table

@@ -1,0 +1,2 @@
+- Est l'acronyme de __Section Headers ENTry SIZE__
+- Indique la taille en bytes de chaque entrée dans la table presente dans la section. Si il n'y a pas de table, la valeur est mis a 0

@@ -8,27 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3d6df004cdb51fdf",
+            "id": "6589e2d4610ff5cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Python/Objet/Sets - Python.md",
+                "file": "Programming/Algorithm/xxHash/xxHash.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sets - Python"
-            }
-          },
-          {
-            "id": "0e3e12be810ae87e",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "xxHash"
             }
           }
         ]
@@ -65,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "line:(symtab)",
+                "query": "tag:#compression  ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -199,53 +189,54 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "3d6df004cdb51fdf",
+  "active": "6589e2d4610ff5cb",
   "lastOpenFiles": [
-    "Programming/Python/Python.md",
-    "Programming/Python/Variable et builtin - Python.md",
-    "Programming/Python/Operateur - Python.md",
-    "Programming/Python/Objet/Tuple - Python.md",
-    "Programming/Python/Objet/Strings - Python.md",
-    "Programming/Python/Objet/Sets - Python.md",
-    "Programming/Python/Objet/Liste - Python.md",
-    "README.md",
-    "Linux/Internal/ELF/ELF.md",
-    "Programming/C/UNIX Socket.md",
-    "Programming/C++/C++.md",
-    "Programming/C/C.md",
-    "Programming/Python/Objet",
-    "Programming/Python/Strings",
-    "Linux/Internal/ELF/1. La creation des ELF.md",
     "Programming/Algorithm/LZ4/LZ4.md",
-    "Book/Hacking, The art of exploitation/Hacking, The art of exploitation.md",
-    "Book/Hacking, The art of exploitation",
-    "Book",
-    "Book/Hacking, The art of exploitation",
-    "Book",
-    "Linux/Internal/ELF/4. Section ELF.md",
-    "Programming/Untitled",
+    "Programming/Algorithm/LZ4/Format des Blocks LZ4.md",
+    "Programming/Algorithm/xxHash/xxHash.md",
+    "Programming/Algorithm/xxHash",
+    "Programming/Python/Python.md",
+    "Programming/Compilation/Compiling.md",
+    "Programming/C & C++/UNIX Socket.md",
+    "Linux/Internal/Eldianness/Eldianness.md",
+    "README.md",
+    "Programming/Compilation/Compilation.md",
+    "Untitled.canvas",
+    "Programming/C & C++/C & C++.md",
+    "Untitled.base",
+    "Linux/Internal/ELF/ELF.md",
+    "Linux/Internal/ELF/assets/file_layout.png",
+    "Linux/Internal/ELF/Headers ELF.md",
+    "Programming/C & C++/epoll.md",
+    "Linux/Internal/Eldianness/MSB.md",
+    "Linux/Internal/Eldianness/LSB.md",
+    "Linux/Internal/Eldianness",
+    "Linux/Untitled",
+    "C++.md",
+    "Linux/Internal/ELF/Section Headers ELF.md",
+    "Programming/C & C++/C++/vtable.md",
+    "Programming/C & C++/C++",
+    "Programming/C++/vtable.md",
+    "Programming/C++/C++.md",
+    "Programming/Compilation/Pre-processing.md",
+    "Linux/Internal/ELF/Section.md",
+    "Linux/Internal/ELF/Header ELF/Flags.md",
+    "Linux/Internal/ELF/assets/elf_sign.png",
+    "Linux/Internal/ELF/Header ELF/shstrndx.md",
     "Linux/Internal/ELF/2. Les headers ELF.md",
     "Linux/Internal/ELF/3. Headers de section ELF.md",
-    "Summary.md",
+    "Linux/Internal/ELF/Untitled",
+    "Linux/Internal/ELF/Section ELF",
+    "Linux/Internal/ELF/Header Section ELF",
+    "Linux/Internal/ELF/Header ELF",
+    "Programming/Compilation",
     "Programming/Algorithm/LZ4/assets/lz4_frame_desc.png",
     "Programming/Algorithm/LZ4/assets/lz4_file_structure.png",
-    "Programming/Algorithm/LZ4/Format des Blocks LZ4.md",
-    "Programming/C++/vtable.md",
-    "Programming/Algorithm/LZ4/assets/Schema LZ4.md",
-    "Excalidraw",
-    "Programming/Algorithm/LZ4",
-    "Programming/Algorithm/LZ4/assets",
-    "Programming/Untitled.md",
-    "Programming/C/assets/socket_comparison.png",
-    "Cryptocurrency/Mastering Monero/1. Introduction aux cryptomonnaie et à Monero.md",
+    "Programming/C & C++/assets/socket_comparison.png",
     "Cryptocurrency/Mastering Monero/assets/1 Introduction to cryptocurrency & Monero/Screenshot_20250209_191045.png",
     "Cryptocurrency/Mastering Monero/assets/1 Introduction to cryptocurrency & Monero/Screenshot_20250209_191420.png",
     "Cryptocurrency/Mastering Monero/assets/1 Introduction to cryptocurrency & Monero/Screenshot_20250209_185008.png",
     "Cryptocurrency/Mastering Monero/assets/1 Introduction to cryptocurrency & Monero/Screenshot_20250209_183713.png",
-    "Cryptocurrency/Mastering Monero/8. Guide sur les wallet et astuce de troubleshoot.md",
-    "Cryptocurrency/Mastering Monero/7. Integration du Monero pour les developpers.md",
-    "Cryptocurrency/Mastering Monero/assets/3 How Monero works/Screenshot_20250210_163220.png",
-    "Cryptocurrency/Mastering Monero/assets/3 How Monero works/Screenshot_20250210_154535.png",
-    "Cryptocurrency/Mastering Monero/assets/2 Getting started receiving, storing and sanding M/Screenshot_20250210_014115.png"
+    "Cryptocurrency/Mastering Monero/assets/3 How Monero works/Screenshot_20250210_163220.png"
   ]
 }

@@ -1,0 +1,2 @@
+- Un autre type de variable existe, les variable en read only. Elle sont destiner a etre uniquement lu et ne jamais changer.
+- En C/C++ les variable initialiser avec `const` sont mis dans cette section

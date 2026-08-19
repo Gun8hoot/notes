@@ -1,0 +1,3 @@
+- Est l'acronyme de __Section Headers ADDRess ALIGN__
+- Sur 8 bytes en 64 bits ou 4 bytes en 32 bits qui nous donne l'allignement de la section. Elle doit obligatoirement etre une puissance de 2.
+- Si la valeur est 0 ou 1 c'est qu'il n'y a pas d'allignement special

@@ -1,0 +1,3 @@
+- Cette partie est super importante
+- Entry est sur 8bit sous 64 bit ou 4 bit sous 32 bit et indique l'addresse de l'entry point du binaire. L'entry point est la fonction ou le programme va commencer, generalement sur Linux l'entry point par defaut est `_start` qui va appeller notre fonction `main()`. L'addresse stocker dans cette partie est en LSB
+![img](https://aleeamini.com/storage/2023/08/elf-header-part2-1.png)

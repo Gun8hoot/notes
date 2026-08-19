@@ -1,0 +1,1 @@
+- Cette section garde les variables globals initialiser. Elle a la propriete PROGBITS ce qui lui permet d'etre charger en memoire et de contenir les données de notre programme 

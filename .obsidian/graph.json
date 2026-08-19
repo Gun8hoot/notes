@@ -1,6 +1,6 @@
 {
-  "collapse-filter": false,
-  "search": "-tag:excalidraw",
+  "collapse-filter": true,
+  "search": "-tag:excalidraw ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -8,10 +8,24 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:Linux  ",
+      "query": "tag:#compression ",
       "color": {
         "a": 1,
-        "rgb": 14725458
+        "rgb": 5431378
+      }
+    },
+    {
+      "query": "tag:cryptography",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "tag:#lowlevel",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
       }
     },
     {
@@ -22,6 +36,13 @@
       }
     },
     {
+      "query": "path:Linux  ",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
       "query": "path:\"Book/Hacking, The art of exploitation\"  ",
       "color": {
         "a": 1,
@@ -29,16 +50,16 @@
       }
     }
   ],
-  "collapse-display": false,
-  "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
+  "collapse-display": true,
+  "showArrow": true,
+  "textFadeMultiplier": -1,
+  "nodeSizeMultiplier": 1.55523531190164,
+  "lineSizeMultiplier": 1.52363196613927,
   "collapse-forces": false,
-  "centerStrength": 0.39373173435453,
-  "repelStrength": 15.3672556951245,
-  "linkStrength": 1,
-  "linkDistance": 320,
-  "scale": 0.7593582854456795,
+  "centerStrength": 0.284087473546307,
+  "repelStrength": 20,
+  "linkStrength": 0.735563841580167,
+  "linkDistance": 246,
+  "scale": 0.14355064448919574,
   "close": false
 }

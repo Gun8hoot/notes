@@ -1,0 +1,3 @@
+- Acronyme de **Elf Headers SIZE**
+- Est sur deux bytes
+- Nous donne la taille de notre header ELF

@@ -1,0 +1,4 @@
+- Acronyme de **Program Headers ENTRYSIZE**
+- Est sur deux bytes
+- Nous donne la **taille d'une entrée** dans notre Program Headers Table
+- Chaque entrée est de la meme taille, sans exception

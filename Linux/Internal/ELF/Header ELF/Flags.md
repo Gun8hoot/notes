@@ -1,0 +1,2 @@
+- Les flags sont stocker sur 4 bytes
+- La valeur et la signification des different flags peuvent varier selon l'architecture processeur (ex. x86, arm, ...) qui a compiler le programme

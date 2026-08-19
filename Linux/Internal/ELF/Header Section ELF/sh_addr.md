@@ -1,0 +1,3 @@
+- Est l'acronyme de __Section Headers ADDRess__
+- Sur 8 bytes en 64 bits ou 4 bytes en 32 bits
+- Nous donne l'addresse de la section qui va etre charger durant le runtime

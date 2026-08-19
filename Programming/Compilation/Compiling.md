@@ -1,0 +1,3 @@
+- Phase de la compilation ou le compilateur va transformer le code obtenu precedement par le [[Pre-processing]] en assembleur. 
+- Le compilateur passe par cette etape pour pouvoir faire des optimisation (si le flag `-O` est preciser) et ajouter certaine features comme les [[vtable]] en C++
+- Pour les compilateur de C/C++ comme gcc/g++ ou clang/clang++, nous devons mettre le flag `-S` pour dire au compilateur de s'arreter apres avoir fini cette etape.

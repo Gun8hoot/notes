@@ -1,0 +1,11 @@
+- Les section est l'endroit ou est stocker les instruction et les differentes donnée utile durant le [[Linking]]
+- Toutes les sections n'ont pas la meme structure commun comme nous avons pus voir dans les [[Section Headers ELF]]
+- Il existe ENORMEMENT de sections differentes, voici les principal :
+	- [[init & fini]]
+	- [[init_array & fini_array]]
+	- [[text]]
+	- [[bss]]
+	- [[rodata]]
+	- [[data]]
+	- [[comment]]
+	- [[symtab & dynsym]]

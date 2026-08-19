@@ -1,0 +1,3 @@
+- Phase de compilation ou le compilateur va **prendre tous les fichier necessaire a la compilation et tous les mettre a la suite**
+- Apres avoir recuperer tous les fichier combiné, le pre-processor va **remplacer tous les defines et macros par leurs valeurs**
+- Pour les compilateur de C/C++ comme gcc/g++ ou clang/clang++, nous devons mettre le flag **`-E`** pour dire au compilateur de s'arreter apres avoir fini cette etape. Il est egalement conseiller de mettre le flag `-P` pour avoir un output plus propre

@@ -1,3 +1,4 @@
+#compression 
 - Le formatage de block defini la representation des données compressées sans metadata
 - Le formatage des blocks LZ4 a un encodage orienté octet concu pour la simplicité et la rapidité. Il est composé de serie de sequences ou chaque sequence represente une suite de literal non compresser suivi d'une reference vers l'ancienne donnée decoder qui correspond a ce que l'on veux decoder.
 ### Structure d'une sequence

@@ -1,0 +1,3 @@
+- Est l'acronyme de __Section Headers OFFSET__
+- Sur 8 bytes en 64 bits ou 4 bytes en 32 bits
+- Valeur de l'offset de la section depuis le debut du fichier

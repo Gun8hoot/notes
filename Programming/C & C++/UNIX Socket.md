@@ -3,21 +3,8 @@
 	- `SOCK_STREAM` : Socket en TCP permet de garantir l'integriter des données transmisent grace a un system nommee "three way handshake"
 	- `SOCK_DGRAM` : Socket en UDP permet d'envoyer et recevoir des donnee a grande vitesse, cepandant ont ne peux pas savoir si des donnee ont ete alterer durant le transite
 
----
-
-##### **POINT SUR L'ELDIANNESS :**
-- L'edianness en architecture systeme est comment les bits sont stoquer en memoire
-- Il existe deux type de d'eldianness
-	- MSB (Most Significant Byte || Big Eldian) : Va stocker les bytes du plus grand aux plus petit (similaire a comment on lit nous les nombre ou le plus petit est sur la droite et le plus grand sur la gauche)
-	- LSB (Least Significant Byte || Big Eldian) : Va stocker les bytes du plus petit aux plus grand
-	- Donc si ont prend l'example du int **44497** (0xADD1 en hexa) qui est sur deux bytes:
-		- En MSB ca c'est stocker en 0xADD1 (on calcul l'hexa en MSB)
-		- En LSB ca c'est stocker en 0xD1AD
-	- Pour un int comme **2147483647** (0x7FFFFFFF en hexa) qui est sur 4 bytes			
-		- En MSB ca c'est stocker en 0x7FFFFFFF (on calcul l'hexa en MSB)
-		- En LSB ca c'est stocker en 0xFFFFFF7F
-- Vue qu'il existe deux type d'eldianness different et que l'on ne peux pas prevoir comment comment l'autre machine traite les données. Il a ete decider que l'ordre des octets reseaux est toujours en MSB. Et apres l'host va convertir les donnee en LSB si besoin
-- La librairie **`<arpa/inet.h>`** nous met a disposition des fonctions pour convertir les octet dans le bon format si besoin que l''on soit en LSB ou MSB.
+- Avant de continuer, il est important de bien avoir compris le principe d'[[Eldianness]]
+- La librairie **`<arpa/inet.h>`** nous met a disposition des fonctions pour convertir les octet dans le bon format si besoin que l'on soit ayent des données en LSB ou MSB.
 ```c
 uint32_t htonl(uint32_t hostlong);  //"Host to network long"
 uint16_t htons(uint16_t hostshort); //"Host to network short"
@@ -206,56 +193,10 @@ fcntl(socket_fd, F_SETFL, O_NONBLOCK);
 ```
 - Si on prend un example avec `recv()` il va renvoyer -1 et mettre le errno a `EAGAIN` ou `EWOULDBLOCK` 
 - Mais utiliser fcntl dans ce cas n'est conseiller car le programme va faire enormement dope ce qui tire enormement sur le CPU. Il est mieux d'utiliser des syscall comme poll()/epoll()/select()
-- De ce que j'ai vu epoll est mieux plus opti (+ conseiller par sbonneau) donc je pense que c'est le mieux a prendre dans notre cas
-
-![comp](./assets/socket_comparison.png)
-
-- Le I/O multiplexing permet a un processus de gerer plusieurs fds en meme temps. Les syscall comme `poll()` et `select()` permettent les I/O multiplexing
-- `epoll()` a de meilleurs performance lorsque l'on monitor une grande quantiter de fds, cepandant il est dispo que sur les kernel Linux >= 2.6 (bsd et macos ont des alternative mais pas `epoll()`)
-
----
-
-- On creer des instance epoll avec `epoll_create()`
-```c
-#include <sys/epoll.h>
-int epoll_create(int size);
-```
-- **size**: Est le nombre de FD que l'on pense gerer via notre instance epoll
-- Il va retourne un fd qui est lier a notre instance `epoll()`
-- Lorsque l'on a fini avec notre instance, nous devons le fermer avec `close()`
-
----
-
-- On ajoute, retire et liste des fd de la liste avec `epoll_ctl()`
-```c
-#include <sys/epoll.h>
-int epoll_ctl(int epfd, int op, int fd, struct epoll_event *ev);
-```
--  **epfd**: Fd de notre instance
-- **op**: Est un indicatif sur ce que l'on veux faire sur ce fd genre `EPOLL_CTL_ADD` pour ajouter un fd a notre liste, `EPOLL_CTL_MOD` pour modifier les paramettre de l'event
-- **fd**: Est le fd que l'on veux ajouter, retirer ou modifier
-- **ev**: Structure qui definit les parametre pour notre **fd**
-- Retourne 0 en cas de success et -1 en cas d'erreur
-
----
-
-- `epoll_wait()` nous permet de nous donner des info si il y a eu des I/O sur un des fd a surveiller 
-```c
-#include <sys/epoll.h>
-int epoll_wait(int epfd, struct epoll_event *evlist, int maxevents, int timeout);
-```
--  **epfd**: Fd de notre instance
-- **evlist**: Est un array de structure de la taille de **maxevents** qui doit etre allouer avant de le donner a la fonction
-- **maxevents**: Est la taille de notre tableau **evlist**
-- **timeout**: Est le nombre de ms ou l'on va check si il y a eu un fd qui a trigger un event. Si le timeout est egal a -1 la fonction est rendu bloquante, si il est a 0 la fonction check et direct return qu'il aille vu un fd qui a trigger un event ou non.
-- Retourne le nombre de fd qui ont trigger un event, 0 si rien ne c'est passer et -1 en cas d'erreur
-
----
-
-- Les option mis `events` de la structure `struct epoll_event` lors du `epoll_ctl()` est mis dans `evlist[].events` lors du `epoll_wait()`
+- De ce que j'ai vu epoll est mieux plus opti (+ conseiller par sbonneau) donc je pense que c'est le mieux a prendre dans notre cas. Meme si c'est un peu chiant a prendre en main
 
 ## SOURCES:
 - [Codequoi](https://www.codequoi.com/programmation-reseau-via-socket-en-c/#quest-ce-quune-socket-)
 - [Wikipedia socket](https://en.wikipedia.org/wiki/Network_socket)
-- [The Linux Programming Interface](https://ia601507.us.archive.org/22/items/linux-programming/the-linux-programming-interface.pdf)
+- [The Linux Programming Interface]()
 	- I/O multiplexing : page 1369 du pdf

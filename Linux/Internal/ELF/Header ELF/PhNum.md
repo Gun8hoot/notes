@@ -1,0 +1,4 @@
+- Acronyme de **Program Headers NUMber**
+- Est sur deux bytes
+- Nous donne **le nombre d'entrée** presente dans notre Program Headers Table
+- Chaque entrée est de la meme taille, sans exception

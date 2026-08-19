@@ -1,0 +1,3 @@
+- Est l'acronyme de __Section Headers INFOrmation__
+- Valeur sur 4 bytes qui depend du type de section que nous somme en train d'analyser
+- Par example pour les sections avec de la relocation, sh_info est l'index de la section qui doit etre relocate durant le linking

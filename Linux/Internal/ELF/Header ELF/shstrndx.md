@@ -1,0 +1,3 @@
+- Acronyme de **Section Header STRing iNDeX**
+- Valeur sur deux bytes
+- Nous permet d'avoir un offset pour pouvoir aller jusqu'a la table shstrtab

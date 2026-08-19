@@ -1,0 +1,3 @@
+- Acronyme de **Section Header NUMber**
+- Valeur sur deux bytes
+- Nous permet d'avoir le nombre total d'entrée presente dans la Section Header Table
