@@ -4,3 +4,16 @@
 	- Utilisant des curly braces dans le declaration `st = {}`
 - Pour obtenir la taille d'un set on peux utiliser `len()`
 - On verifie si un element est dans le set avec le keyword `in`
+- On ajoute un element a notre set avec la methode `.add()` ou `.update()` si nous avons plusieurs elements a ajouter
+	- `st.add('item55')`
+	- `st.update(['item5','item6','item7'])`
+- On supprime des éléments en utilisant la methode `.remove()` ou `.pop()`
+	- Remove nous permet de retirer un element precis
+		- `st.remove('item2')`
+	- Pop nous permet de retier le derniere element present dans notre set
+- Pour vider entierement un set on utilise `.clear()` ou le keyword `del`
+- On peux convertir une liste en set grace au constructeur de set     (`set()`). L'ordre de la liste converti sera aleatoire car les set ne sont pas ordonnée
+- On joint un set avec un autre grace a `.union()`, `.update()` ou en mettant `|` entre les deux set
+- On peux check si un set contient certaine données grace a la methode `.intersection()` 
+- On retourne la difference avec `.difference()` ou avec l'operateur `-`
+- 

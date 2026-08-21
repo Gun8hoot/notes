@@ -1,0 +1,24 @@
+- Un dictionnaire est une collection de donnée non ordonnée qui est sous le format **key:value**
+- On crée un dictionnaire en initialisent avec des `{}`
+	- `dict = {'key1':'value_of_key'}`
+- On obtient la longeur grace a la fonction `len()`
+- Il existe deux moyen d'acceder a un element dans notre dictionnaire :
+	- En utilisant des `[]`
+		- Permet d'acceder facilement a la valeur mais peux faire des erreur si la valeur n'existe pas 
+		- `dict['key1']`
+	- En utilisant `.get()`
+		- Va retourner un objet de type NoneType si la key n'existe pas 
+- On ajoute ou modifie en fessant juste une assignation
+	- `dict['key1'] = 'new_value'`
+- On verifie si une key existe grace au keyword `in`
+	- `'key2' in dct`
+- On peux supprimer un element de notre dictionaire de 3 facon : 
+	- `.pop('key55')` : Nous permet de supprimer via la key en paramettre
+	- `.popitem()` : Va retirer le derniere element de notre dictionnaire
+	- `del dict['key55']`
+- La methode `.item()` nous permet de transformer notre dictionnaire en liste de tuple
+- On vide un dictionnaire avec `.clear()`
+- On supprime un dictionnaire avec le keyword `del`
+- On copie un dictionnaire avec la methode `.copy()`
+	- Lorsque l'on fait `dict2 = dict1`, assignons juste **la reference de dict1 dans dict2**
+- On obtient toutes les valeur sous forme de liste avec `.values()`

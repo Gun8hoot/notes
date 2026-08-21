@@ -1,0 +1,1 @@
+- Si la valeur est inferieur a 16 bytes, aucun 

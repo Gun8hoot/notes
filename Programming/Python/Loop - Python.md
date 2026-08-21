@@ -1,0 +1,15 @@
+- En python, il existe deux type de boucle : 
+	- `while`
+		- Va executer un bloc d'instruction tant que la condition donné est vrai
+	- `for`
+		- Nous permet de boucler sur une sequence (list, tuple, dictionnaire, set, str, ...)
+		- Pour boucler sur une chaine de caractere nous devons faire :
+			- `for letter in string:`
+		- Pour boucler sur un dictionnaire on doit faire :
+			- `for key, value in person.items()`
+- Le keyword `break` nous permet d'arreter notre boucle prematurement
+- Le keyword `continue` nous permet de sauter l'iteration actuelle
+- La fonction `range()` nous permet de generer une sequence de nombre
+- Nous pouvons executer un executer un bloc de texte lorsque le boucle se termine en mettant une `else` apres une `for`
+- Le keyword `pass` nous permet de rien faire
+- 

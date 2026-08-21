@@ -1,0 +1,7 @@
+- Il existe trois type de condition : 
+	- `if`
+		- Nous permet de verifier si la condition donné est vrai
+	- `elif`
+		- Nous permet de verifier si la condition donné est vrai et ne pas casser la chaine de condition
+	- `else`
+		- Va executer le bloc si il ne rentre dans aucune condition

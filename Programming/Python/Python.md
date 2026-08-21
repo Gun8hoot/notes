@@ -40,7 +40,7 @@ python is eating the world
 		- Nous permet de stocker des données de different type
 		- Est similaire aux array dans les autres language
 		- `list = ["str1", 28, True]`
-	- Dictionnaire :
+	- [[Dictionnaire - Python]] :
 		- Nous permet de stocker des données dans un format pair de key:value
 		- `arr = {'age':99, 'skills':['C', 'C++']}`
 	- [[Tuple - Python]] : 
