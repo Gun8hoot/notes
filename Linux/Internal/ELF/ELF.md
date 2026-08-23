@@ -17,9 +17,9 @@
 	- Des instruction (autrement dit le code)
 	- Des données (comme le nom des fonction, segment, section, etc ...)
 - Les ELF sont constituer de 4 grande partie :
-	- [[Headers ELF]]
-	- [[Section Headers ELF]]
-	- [[Section]]
+	- Un [[Headers ELF]]
+	- Des [[Section Headers ELF]]
+	- Des [[Section]]
 	- Des headers de segments optionnels
 
 
